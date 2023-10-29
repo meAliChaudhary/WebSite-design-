@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earth Essence</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/f119c5e676.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section id="Home" class="home">
+    <video class="hero-video" src="assets/video.png 3.mp4" autoplay muted loop></video>
+
+    <body id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4">
+
+     <!-- navbar  -->
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#carouselExampleCaptions">Earth-Essence</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About Us">About us</a>
+          </li> 
+        </ul>
+        <form class="d-flex mt-1">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger text-white" type="submit">Search</button>
+        </form>
+
+
+        <!-- sign up button with a sign up modal  -->
+
+        <button type="button" class="btn btn-danger mt-1" data-bs-toggle="modal" data-bs-target="#sign-up">
+          Sign-Up
+        </button>
+
+
+        <!-- sign in button with a sign in modal  -->
+
+        <button type="button" class="btn btn-danger mt-1" data-bs-toggle="modal" data-bs-target="#sign-in">Sign-In</button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!--Sign Up Modal -->
+  <div class="modal fade" id="sign-up" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-4"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign-Up Here</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form action="#sign-in">
+      <div class="form-group s-form s-form2">
+        <label for="exampleInputName1">Name</label>
+        <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter Name">
+      </div>
+      <div class="form-group s-form">
+        <label for="exampleInputEmail1">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email">
+      </div>
+      <div class="form-group s-form">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Create Password">
+      </div>
+      <div class="form-group s-form s-form3">
+        <label for="exampleInputPassword1">Confirm Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Type Password Again">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-target="#sign-in" data-bs-toggle="modal">Submit</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- sign in Modal -->
+<div class="modal fade" id="sign-in" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-4"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign-Up Here</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form action="web.html">
+      <div class="form-group s-form s-form2">
+        <label for="exampleInputEmail1">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email">
+      </div>
+      <div class="form-group s-form s-form3">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+      <!-- Header -->
+      
+              </div>
+          </div>
+      </div>
+  
+     </body>
+
+
+    <!-- text on the video with heading paragraph buttons and icons -->
+    <div class="text">
+      <h1>EveryThing You<br>Need  To know About</h1>
+      <h3>Plannet Earth</h3>
+      <p>Earth is the 3rd planet from the Sun, and it has one Moon.
+         It is the only planet in our Solar System which is suitable
+        for sustaining life. The composition of the Earth's surface is
+         70% water and only 30% land.
+      </p>
+      <button class="btn btn-light">Learn More</button>
+
+      <div class="icons">
+        <a href="https://github.com/meAliChaudhary"><i class="fa fa-github icon-1"></i></a>
+        <a href="https://www.linkedin.com/in/ali-raza-946b56291/"><i class="fa fa-linkedin icon-3"></i></a>
+        <a href="https://www.instagram.com/ali_chaudhary_05/"><i class="fa fa-instagram icon-3"></i></a>
+
+      </div>
+    </div>
+
+  </section>
+  <section class="campus">
+    <h1>Our Events</h1>
+    <p>THE Event FOR THE FIRST EARTH DAY</p>
+   <div class="row">
+        <div class="campus-col">
+             <img src="assets/event.jpg">
+             <div class="layer">
+                  
+             </div>
+        </div>
+        <div class="campus-col">
+             <img src="assets/123.jpg">
+             <div class="layer">
+              
+             </div>
+        </div>
+        <div class="campus-col">
+             <img src="assets/eventh.jpg">
+             <div class="layer">
+                 
+             </div>
+        </div>
+   </div>
+   </section>
+   <section class="campus">
+    <h1>Our History</h1>
+    <p>The idea for the first earth day</p>
+    <div class="card-group">
+      <div class="card">
+        <img src="assets/GaylordNelson.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gaylordne Nelson</h5>
+          <p class="card-text">Senator Gaylord Nelson, the junior senator from Wisconsin, had long been concerned about the
+             deteriorating environment in the United States. Then in January 1969, he and many others witnessed the ravages 
+             of a massive oil spill in Santa Barbara, California. Inspired by the student anti-war movement, Senator Nelson.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/Denis Hayes.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Danis Hyaes</h5>
+          <p class="card-text">Senator Gaylord Nelson recruited Denis Hayes, a young activist, to organize the campus teach-ins 
+           and to scale the idea to a broader public,and they choose April 22, a weekday falling between Spring Break and Final 
+           spring Exams, to maximize the greatest student participation.</p>
+        </div>
+        
+      </div>
+      <div class="card">
+        <img src="assets/Daily-news-earthday.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">First Earth Day,1970</h5>
+          <p class="card-text">Recognizing its potential to inspire all Americans,
+             Hayes built a national staff of 85 to promote events across the land and
+              the effort soon broadened to include a wide range of organizations, faith groups,
+               and others.  They changed the name to Earth Day, which immediately sparked national
+                media attention, and caught on across the country</p>
+        </div>
+        
+      </div>
+    </div>
+   </section>
+    <!------Footer----->
+    <section class="footer">
+      <h4>About us</h4>
+      <p>Lorem ipsum dolor sit amet, consecture adipiscing elit.
+           pellentesque aliquet turpis nulla, eleifend faucibus easiest <br>
+           sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+           Donec sit.</p>
+           <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+
+           </div>
+           <p> ALi chaudhary <i class="fa fa-heart"></i> made </p>
+      
+  </section>
+
+
+
+</body>
+</html>
